@@ -1,0 +1,40 @@
+.total{
+    display: flex;
+}
+
+.subTotal{
+    margin-left: 650px;
+}
+.subHeading{
+    margin-left: 200px;
+}
+
+@media screen and (max-width: 1020px) 
+{
+    .subTotal{
+        margin-left:375px;
+    }
+    .subHeading{
+        margin-left:80px;
+    }
+}
+
+@media screen and (max-width: 800px) 
+{
+    .subTotal{
+        margin-left:295px;
+    }
+    .subHeading{
+        margin-left:60px;
+    }
+}
+@media screen and (max-width: 600px) 
+{
+    .subTotal{
+        margin-left:300px;
+    }
+    .subHeading{
+        margin-left:0px;
+    }
+}
+

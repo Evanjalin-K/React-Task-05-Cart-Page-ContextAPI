@@ -1,0 +1,46 @@
+.totalAmt{
+    display: flex;
+}
+.Tot{
+   margin-left: 210px;
+}
+.amount{
+    margin-left: 680px;
+}
+@media screen and (max-width: 1020px) 
+{
+    .Tot{
+        margin-left:80px;
+     }
+     .amount{
+        margin-left: 410px;
+    }
+ }
+@media screen and (max-width: 800px) 
+{
+    .totalAmt{
+        display: flex;
+    }
+    .Tot{
+       margin-left:60px;
+    }
+    .amount{
+        margin-left: 335px;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    .totalAmt{
+        display: flex;
+    }
+    .Tot{
+       margin-left:0px;
+    }
+    .amount{
+        margin-left: 340px;
+    }
+}
+
+
+
